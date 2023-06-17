@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-
 #Խնդիր 1
 
 n = int(input("Մուտքագրեք թիվ: "))
@@ -12,10 +6,6 @@ if n % 2 == 0:
 else: 
     print(f"{n} թիվը կենտ է։ ")
 
-
-# In[2]:
-
-
 #Խնդիր 2
 
 n = int(input("Մուտքագրեք բնական թիվ։ "))
@@ -23,10 +13,6 @@ gumar = 0
 for i in range (n + 1):
     gumar += i 
 print(gumar)
-
-
-# In[4]:
-
 
 #Խնդիր 3
 
@@ -46,10 +32,6 @@ my_list = [23, 45, 67, 12, 89, 34]
 largestnum = findlargestone(my_list)
 print(f"Շարքի ամենամեծ թիվը՝ {largestnum}-ն է։")
 
-
-# In[9]:
-
-
 #Խնդիր 4
 
 def fibonacci(n):
@@ -60,10 +42,6 @@ def fibonacci(n):
 
 fib = fibonacci(0)
 print(fib) 
-
-
-# In[6]:
-
 
 #Խնդիր 5
 
@@ -85,4 +63,3 @@ account = BankAccount('15689416396', 7000.0)
 account.deposit(500.0)
 account.withdraw(300.0)
 print(account.get_balance ())
-
